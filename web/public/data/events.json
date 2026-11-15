@@ -1,0 +1,1887 @@
+[
+ {
+  "id": "sn1054",
+  "title": "The guest star of 1054",
+  "kind": "supernova",
+  "certainty": "recorded",
+  "year": 1054,
+  "month": 7,
+  "day": 4,
+  "hour": 4.3,
+  "place": "Kaifeng, Song China",
+  "lat": 34.8,
+  "lon": 114.31,
+  "look": {
+   "target": "SN 1054"
+  },
+  "transient": {
+   "name": "SN 1054",
+   "ra": 83.633,
+   "dec": 22.015,
+   "peakMag": -6.0,
+   "daysVisible": 650,
+   "start": [
+    1054,
+    7,
+    4
+   ]
+  },
+  "summary": "Song dynasty astronomers logged a new star near zeta Tauri in July 1054. It stayed visible in daylight for about three weeks and to the naked eye at night for nearly two years. Its debris is the Crab Nebula, with a pulsar at its centre.",
+  "sources": [
+   "Song huiyao (Song dynasty administrative records)",
+   "Stephenson & Green, Historical Supernovae and their Remnants (Oxford, 2002)"
+  ],
+  "tags": [
+   "supernova",
+   "crab nebula",
+   "taurus",
+   "china",
+   "guest star",
+   "pulsar"
+  ]
+ },
+ {
+  "id": "sn1006",
+  "title": "SN 1006, the brightest star ever recorded",
+  "kind": "supernova",
+  "certainty": "recorded",
+  "year": 1006,
+  "month": 5,
+  "day": 1,
+  "hour": 0.5,
+  "place": "Cairo",
+  "lat": 30.04,
+  "lon": 31.24,
+  "look": {
+   "target": "SN 1006"
+  },
+  "transient": {
+   "name": "SN 1006",
+   "ra": 225.7,
+   "dec": -41.95,
+   "peakMag": -7.5,
+   "daysVisible": 900,
+   "start": [
+    1006,
+    4,
+    30
+   ]
+  },
+  "summary": "In spring 1006 a new star in Lupus outshone every other point in the sky, likely around magnitude -7. Ali ibn Ridwan in Cairo wrote that it was two to three times the size of Venus and lit the ground. Chinese, Japanese and European chronicles recorded it too.",
+  "sources": [
+   "Ali ibn Ridwan, commentary on Ptolemy's Tetrabiblos",
+   "Winkler, Gupta & Long, ApJ 585 (2003)",
+   "Stephenson & Green (2002)"
+  ],
+  "tags": [
+   "supernova",
+   "lupus",
+   "egypt",
+   "ibn ridwan",
+   "brightest"
+  ]
+ },
+ {
+  "id": "tycho1572",
+  "title": "Tycho's new star in Cassiopeia",
+  "kind": "supernova",
+  "certainty": "recorded",
+  "year": 1572,
+  "month": 11,
+  "day": 11,
+  "hour": 20.0,
+  "place": "Herrevad Abbey, Scania",
+  "lat": 56.09,
+  "lon": 13.24,
+  "look": {
+   "target": "SN 1572"
+  },
+  "transient": {
+   "name": "SN 1572",
+   "ra": 6.33,
+   "dec": 64.14,
+   "peakMag": -4.0,
+   "daysVisible": 480,
+   "start": [
+    1572,
+    11,
+    6
+   ]
+  },
+  "summary": "Tycho Brahe noticed a star brighter than Venus in Cassiopeia on an evening walk. His measurements showed no parallax, so it lay beyond the Moon, a direct blow to the idea of an unchanging heavens. He published it as De nova stella (1573).",
+  "sources": [
+   "Tycho Brahe, De nova et nullius aevi memoria prius visa stella (1573)",
+   "Stephenson & Green (2002)"
+  ],
+  "tags": [
+   "supernova",
+   "tycho brahe",
+   "cassiopeia",
+   "denmark",
+   "nova"
+  ]
+ },
+ {
+  "id": "kepler1604",
+  "title": "Kepler's supernova",
+  "kind": "supernova",
+  "certainty": "recorded",
+  "year": 1604,
+  "month": 10,
+  "day": 17,
+  "hour": 18.6,
+  "place": "Prague",
+  "lat": 50.09,
+  "lon": 14.42,
+  "look": {
+   "target": "SN 1604"
+  },
+  "transient": {
+   "name": "SN 1604",
+   "ra": 262.67,
+   "dec": -21.48,
+   "peakMag": -2.5,
+   "daysVisible": 365,
+   "start": [
+    1604,
+    10,
+    9
+   ]
+  },
+  "summary": "A new star flared in Ophiuchus close to a conjunction of Jupiter and Saturn. Johannes Kepler tracked it for a year from Prague. It is the last supernova in our own galaxy seen with the naked eye.",
+  "sources": [
+   "Johannes Kepler, De Stella Nova in Pede Serpentarii (1606)",
+   "Stephenson & Green (2002)"
+  ],
+  "tags": [
+   "supernova",
+   "kepler",
+   "ophiuchus",
+   "prague",
+   "last galactic supernova"
+  ]
+ },
+ {
+  "id": "halley240bce",
+  "title": "Earliest certain record of Halley's Comet",
+  "kind": "comet",
+  "certainty": "recorded, date approximate",
+  "year": -239,
+  "month": 5,
+  "day": 25,
+  "hour": 4.0,
+  "place": "Xianyang, Qin state",
+  "lat": 34.33,
+  "lon": 108.71,
+  "look": {
+   "target": "Halley's Comet"
+  },
+  "summary": "The Shiji records a broom star in 240 BCE that orbit calculations identify as Halley's Comet, the oldest sighting most historians accept. The comet is drawn from JPL Horizons orbital elements for that return; on 25 May 240 BCE its computed position is within 0.1° of Horizons.",
+  "sources": [
+   "Sima Qian, Shiji (Records of the Grand Historian)",
+   "Yeomans & Kiang, MNRAS 197 (1981)"
+  ],
+  "tags": [
+   "halley",
+   "comet",
+   "china",
+   "qin",
+   "broom star"
+  ]
+ },
+ {
+  "id": "halley1066",
+  "title": "Halley's Comet before the Norman conquest",
+  "kind": "comet",
+  "certainty": "recorded",
+  "year": 1066,
+  "month": 4,
+  "day": 26,
+  "hour": 20.5,
+  "place": "Southern England",
+  "lat": 50.85,
+  "lon": 0.57,
+  "look": {
+   "target": "Halley's Comet"
+  },
+  "summary": "The comet hung over England in late April 1066, months before the Battle of Hastings, passing about 0.08 AU from Earth. The Bayeux Tapestry shows men pointing at it. Its position here comes from Halley's orbit, so it is approximate to a few degrees.",
+  "sources": [
+   "Bayeux Tapestry (c. 1070s)",
+   "Anglo-Saxon Chronicle, entry for 1066"
+  ],
+  "tags": [
+   "halley",
+   "comet",
+   "bayeux tapestry",
+   "hastings",
+   "normans",
+   "england"
+  ]
+ },
+ {
+  "id": "thales585",
+  "title": "The eclipse that stopped a battle",
+  "kind": "eclipse",
+  "certainty": "recorded, location approximate",
+  "year": -584,
+  "month": 5,
+  "day": 28,
+  "hour": 17.49,
+  "place": "Halys River, Anatolia",
+  "lat": 40.0,
+  "lon": 35.0,
+  "look": {
+   "target": "Sun"
+  },
+  "summary": "Herodotus says day turned to night during a battle between the Lydians and the Medes, who took it as a sign and made peace. Thales of Miletus is said to have predicted it. The computed eclipse of 28 May 585 BCE fits, and its exact path is a classic test of how fast Earth's rotation has slowed.",
+  "sources": [
+   "Herodotus, Histories 1.74",
+   "Stephenson, Historical Eclipses and Earth's Rotation (Cambridge, 1997)"
+  ],
+  "tags": [
+   "eclipse",
+   "thales",
+   "herodotus",
+   "lydia",
+   "medes",
+   "delta t",
+   "solar eclipse"
+  ]
+ },
+ {
+  "id": "bursagale763",
+  "title": "The Assyrian eclipse that anchors ancient chronology",
+  "kind": "eclipse",
+  "certainty": "recorded",
+  "year": -762,
+  "month": 6,
+  "day": 15,
+  "hour": 9.39,
+  "place": "Nineveh, Assyria",
+  "lat": 36.36,
+  "lon": 43.15,
+  "look": {
+   "target": "Sun"
+  },
+  "summary": "The Assyrian eponym list notes a solar eclipse in the year of Bur-Sagale. Matching it to the total eclipse of 15 June 763 BCE pins down Assyrian dates, and through them much of Near Eastern chronology.",
+  "sources": [
+   "Assyrian Eponym Chronicle",
+   "Stephenson (1997)"
+  ],
+  "tags": [
+   "eclipse",
+   "assyria",
+   "bur-sagale",
+   "chronology",
+   "nineveh",
+   "solar eclipse"
+  ]
+ },
+ {
+  "id": "ugarit1223",
+  "title": "The Ugarit eclipse tablet",
+  "kind": "eclipse",
+  "certainty": "hypothesis",
+  "year": -1222,
+  "month": 3,
+  "day": 5,
+  "hour": 12.11,
+  "place": "Ugarit",
+  "lat": 35.6,
+  "lon": 35.78,
+  "look": {
+   "target": "Sun"
+  },
+  "summary": "A clay tablet from Ugarit is often read as describing a solar eclipse, with 5 March 1223 BCE the leading match. The reading is debated; some scholars see a different omen entirely.",
+  "sources": [
+   "de Jong & van Soldt, Nature 338 (1989)"
+  ],
+  "tags": [
+   "eclipse",
+   "ugarit",
+   "tablet",
+   "bronze age",
+   "solar eclipse"
+  ]
+ },
+ {
+  "id": "eddington1919",
+  "title": "The eclipse that tested Einstein",
+  "kind": "eclipse",
+  "certainty": "recorded",
+  "year": 1919,
+  "month": 5,
+  "day": 29,
+  "hour": 9.32,
+  "place": "Sobral, Brazil",
+  "lat": -3.69,
+  "lon": -40.35,
+  "look": {
+   "target": "Sun"
+  },
+  "summary": "Expeditions to Sobral and Principe photographed stars near the eclipsed Sun in the Hyades. Their apparent shift matched general relativity's prediction for light bending, and the result made Einstein famous.",
+  "sources": [
+   "Dyson, Eddington & Davidson, Phil. Trans. R. Soc. A 220 (1920)"
+  ],
+  "tags": [
+   "eclipse",
+   "einstein",
+   "relativity",
+   "eddington",
+   "hyades",
+   "solar eclipse"
+  ]
+ },
+ {
+  "id": "eclipse2024",
+  "title": "Great North American eclipse",
+  "kind": "eclipse",
+  "certainty": "recorded",
+  "year": 2024,
+  "month": 4,
+  "day": 8,
+  "hour": 12.26,
+  "place": "Dallas, Texas",
+  "lat": 32.78,
+  "lon": -96.8,
+  "look": {
+   "target": "Sun"
+  },
+  "summary": "Totality crossed Mexico, the United States and Canada. Venus and Jupiter appeared on either side of the darkened Sun.",
+  "sources": [
+   "NASA eclipse predictions (Espenak)"
+  ],
+  "tags": [
+   "eclipse",
+   "2024",
+   "texas",
+   "totality",
+   "solar eclipse"
+  ]
+ },
+ {
+  "id": "eclipse2027",
+  "title": "Eclipse over Luxor",
+  "kind": "eclipse",
+  "certainty": "predicted",
+  "year": 2027,
+  "month": 8,
+  "day": 2,
+  "hour": 12.26,
+  "place": "Luxor, Egypt",
+  "lat": 25.69,
+  "lon": 32.64,
+  "look": {
+   "target": "Sun"
+  },
+  "summary": "On 2 August 2027 the Moon's shadow crosses Luxor, where totality lasts about six and a half minutes, one of the longest total eclipses of this century.",
+  "sources": [
+   "NASA eclipse predictions (Espenak)",
+   "Astronomy Engine: totality at Luxor 10:01:55 to 10:08:20 UT"
+  ],
+  "tags": [
+   "eclipse",
+   "2027",
+   "luxor",
+   "egypt",
+   "totality",
+   "solar eclipse",
+   "upcoming"
+  ]
+ },
+ {
+  "id": "galileo1610",
+  "title": "Galileo finds Jupiter's moons",
+  "kind": "observation",
+  "certainty": "recorded",
+  "year": 1610,
+  "month": 1,
+  "day": 7,
+  "hour": 19.0,
+  "place": "Padua",
+  "lat": 45.41,
+  "lon": 11.88,
+  "look": {
+   "target": "Jupiter"
+  },
+  "summary": "Pointing his new telescope at Jupiter, Galileo saw three small stars in a line beside it. Over the next nights they moved with the planet, and he concluded they were moons. He published in Sidereus Nuncius that March.",
+  "sources": [
+   "Galileo Galilei, Sidereus Nuncius (1610)"
+  ],
+  "tags": [
+   "galileo",
+   "jupiter",
+   "moons",
+   "telescope",
+   "padua"
+  ]
+ },
+ {
+  "id": "hipparchus",
+  "title": "Hipparchus discovers precession",
+  "kind": "observation",
+  "certainty": "recorded, date approximate",
+  "year": -129,
+  "month": 4,
+  "day": 20,
+  "hour": 22.0,
+  "place": "Rhodes",
+  "lat": 36.43,
+  "lon": 28.22,
+  "look": {
+   "target": "Spica"
+  },
+  "summary": "Comparing his position for Spica with one taken by Timocharis about 150 years earlier, Hipparchus found the stars had shifted relative to the equinox. He had discovered the slow wobble of Earth's axis this app animates.",
+  "sources": [
+   "Ptolemy, Almagest VII.2",
+   "Toomer, Ptolemy's Almagest (1984)"
+  ],
+  "tags": [
+   "precession",
+   "hipparchus",
+   "spica",
+   "rhodes",
+   "greek astronomy"
+  ]
+ },
+ {
+  "id": "almagest137",
+  "title": "Ptolemy's star catalogue",
+  "kind": "observation",
+  "certainty": "recorded, date approximate",
+  "year": 137,
+  "month": 3,
+  "day": 21,
+  "hour": 21.0,
+  "place": "Alexandria",
+  "lat": 31.2,
+  "lon": 29.92,
+  "look": {
+   "target": "Orion"
+  },
+  "summary": "The Almagest lists 1,022 stars in 48 constellations for the first year of Antoninus Pius. Most of the constellation figures drawn here descend from that list.",
+  "sources": [
+   "Ptolemy, Almagest VII-VIII",
+   "Toomer (1984)"
+  ],
+  "tags": [
+   "ptolemy",
+   "almagest",
+   "alexandria",
+   "catalogue",
+   "constellations"
+  ]
+ },
+ {
+  "id": "alsufi964",
+  "title": "Al-Sufi describes the Andromeda Galaxy",
+  "kind": "observation",
+  "certainty": "recorded, date approximate",
+  "year": 964,
+  "month": 10,
+  "day": 15,
+  "hour": 22.0,
+  "place": "Isfahan",
+  "lat": 32.65,
+  "lon": 51.67,
+  "look": {
+   "target": "Andromeda Galaxy"
+  },
+  "summary": "Abd al-Rahman al-Sufi's Book of Fixed Stars revised Ptolemy's catalogue with Arabic star names and described a small cloud in Andromeda, the earliest known record of another galaxy.",
+  "sources": [
+   "al-Sufi, Kitab suwar al-kawakib al-thabita (c. 964)"
+  ],
+  "tags": [
+   "al-sufi",
+   "andromeda galaxy",
+   "persia",
+   "islamic astronomy",
+   "book of fixed stars"
+  ]
+ },
+ {
+  "id": "giza2560",
+  "title": "Thuban, pole star of the pyramid builders",
+  "kind": "alignment",
+  "certainty": "computed",
+  "year": -2559,
+  "month": 3,
+  "day": 20,
+  "hour": 22.0,
+  "place": "Giza",
+  "lat": 29.9792,
+  "lon": 31.1342,
+  "look": {
+   "target": "Thuban"
+  },
+  "summary": "When Khufu's pyramid went up, the north celestial pole sat beside Thuban in Draco, not Polaris. The pyramid's sides are aligned to true north within a fraction of a degree, a feat that needed the sky as a reference.",
+  "sources": [
+   "Long-term precession: Vondrak, Capitaine & Wallace, A&A 534 (2011)",
+   "Spence, Nature 408 (2000)"
+  ],
+  "tags": [
+   "giza",
+   "pyramid",
+   "khufu",
+   "egypt",
+   "thuban",
+   "pole star",
+   "draco"
+  ]
+ },
+ {
+  "id": "giza_kochab_mizar",
+  "title": "The Kochab and Mizar alignment idea",
+  "kind": "alignment",
+  "certainty": "hypothesis",
+  "year": -2466,
+  "month": 9,
+  "day": 1,
+  "hour": 23.0,
+  "place": "Giza",
+  "lat": 29.9792,
+  "lon": 31.1342,
+  "look": {
+   "target": "Kochab"
+  },
+  "summary": "Kate Spence proposed that Egyptian surveyors found north by waiting until Kochab and Mizar hung one above the other. Precession slowly tilts that line, which she used to date the pyramids. Other researchers dispute the method.",
+  "sources": [
+   "Spence, Nature 408 (2000)",
+   "Belmonte, Journal for the History of Astronomy 32 (2001)"
+  ],
+  "tags": [
+   "giza",
+   "pyramid",
+   "kochab",
+   "mizar",
+   "alignment",
+   "egypt",
+   "dating"
+  ]
+ },
+ {
+  "id": "giza1250",
+  "title": "Giza in the age of Ramesses II",
+  "kind": "culture",
+  "certainty": "computed",
+  "year": -1249,
+  "month": 7,
+  "day": 1,
+  "hour": 22.0,
+  "place": "Giza",
+  "lat": 29.9792,
+  "lon": 31.1342,
+  "look": {
+   "alt": 30,
+   "az": 0
+  },
+  "summary": "By the 13th century BCE the pole had drifted away from Thuban and Egypt had no bright pole star. Thirteen centuries of precession separate this sky from the one the pyramid builders used.",
+  "sources": [
+   "Vondrak, Capitaine & Wallace (2011)"
+  ],
+  "tags": [
+   "giza",
+   "egypt",
+   "ramesses",
+   "new kingdom",
+   "1250 bce"
+  ]
+ },
+ {
+  "id": "sothic139",
+  "title": "Sirius returns at dawn",
+  "kind": "alignment",
+  "certainty": "recorded",
+  "year": 139,
+  "month": 7,
+  "day": 20,
+  "hour": 4.6,
+  "place": "Memphis, Egypt",
+  "lat": 29.85,
+  "lon": 31.25,
+  "look": {
+   "target": "Sirius"
+  },
+  "summary": "Egyptians watched for Sirius to reappear in the dawn after weeks hidden in the Sun's glare, close to the start of the Nile flood. The Roman writer Censorinus records that this rising coincided with the Egyptian new year in 139 CE, a fixed point for dating Egyptian history.",
+  "sources": [
+   "Censorinus, De Die Natali 21 (238 CE)"
+  ],
+  "tags": [
+   "sirius",
+   "sothis",
+   "heliacal rising",
+   "egypt",
+   "nile",
+   "calendar"
+  ]
+ },
+ {
+  "id": "stonehenge2500",
+  "title": "Midsummer sunrise at Stonehenge",
+  "kind": "alignment",
+  "certainty": "recorded",
+  "year": -2499,
+  "month": 7,
+  "day": 14,
+  "hour": 3.2,
+  "place": "Stonehenge",
+  "lat": 51.1789,
+  "lon": -1.8262,
+  "look": {
+   "alt": 3,
+   "az": 48
+  },
+  "summary": "The monument's axis points to the midsummer sunrise and the midwinter sunset. In 2500 BCE the solstice falls on 14 July in the Julian calendar, a reminder that calendars drift while the sky keeps time.",
+  "sources": [
+   "Ruggles, Astronomy in Prehistoric Britain and Ireland (Yale, 1999)",
+   "Solstice computed with Astronomy Engine"
+  ],
+  "tags": [
+   "stonehenge",
+   "solstice",
+   "sunrise",
+   "britain",
+   "neolithic",
+   "midsummer"
+  ]
+ },
+ {
+  "id": "newgrange3200",
+  "title": "Winter solstice light at Newgrange",
+  "kind": "alignment",
+  "certainty": "recorded",
+  "year": -3198,
+  "month": 1,
+  "day": 14,
+  "hour": 8.2,
+  "place": "Newgrange",
+  "lat": 53.6947,
+  "lon": -6.4755,
+  "look": {
+   "alt": 2,
+   "az": 132
+  },
+  "summary": "A roof box above the passage lets the rising midwinter Sun shine down the 19 metre passage into the chamber for about a quarter of an hour. The tomb predates the Giza pyramids.",
+  "sources": [
+   "O'Kelly, Newgrange: Archaeology, Art and Legend (1982)",
+   "Ruggles (1999)"
+  ],
+  "tags": [
+   "newgrange",
+   "ireland",
+   "solstice",
+   "passage tomb",
+   "neolithic",
+   "winter"
+  ]
+ },
+ {
+  "id": "chichen1000",
+  "title": "The serpent of El Castillo",
+  "kind": "alignment",
+  "certainty": "recorded",
+  "year": 1000,
+  "month": 3,
+  "day": 14,
+  "hour": 16.8,
+  "place": "Chichen Itza",
+  "lat": 20.6843,
+  "lon": -88.5678,
+  "look": {
+   "alt": 10,
+   "az": 268
+  },
+  "summary": "Near the equinoxes, late afternoon light casts a zigzag of triangles down the northern stairway, joining the serpent head at its base. Whether the builders intended the effect is debated, but the pyramid's orientation tracks the Sun.",
+  "sources": [
+   "Aveni, Skywatchers (University of Texas Press, 2001)"
+  ],
+  "tags": [
+   "chichen itza",
+   "maya",
+   "kukulkan",
+   "equinox",
+   "yucatan",
+   "el castillo"
+  ]
+ },
+ {
+  "id": "nebra1600",
+  "title": "The Nebra sky disc",
+  "kind": "culture",
+  "certainty": "interpretation",
+  "year": -1599,
+  "month": 3,
+  "day": 10,
+  "hour": 20.0,
+  "place": "Mittelberg, Germany",
+  "lat": 51.28,
+  "lon": 11.52,
+  "look": {
+   "target": "Pleiades"
+  },
+  "summary": "This bronze disc with gold Sun, Moon and stars is the oldest known concrete depiction of the cosmos. The cluster of seven dots is widely read as the Pleiades, whose spring setting may have marked the farming year.",
+  "sources": [
+   "Meller, Der geschmiedete Himmel (2004)",
+   "UNESCO Memory of the World register (2013)"
+  ],
+  "tags": [
+   "nebra",
+   "sky disc",
+   "bronze age",
+   "pleiades",
+   "germany"
+  ]
+ },
+ {
+  "id": "venus_ammisaduqa",
+  "title": "The Venus tablet of Ammisaduqa",
+  "kind": "observation",
+  "certainty": "recorded, chronology debated",
+  "year": -1645,
+  "month": 12,
+  "day": 1,
+  "hour": 18.5,
+  "place": "Babylon",
+  "lat": 32.54,
+  "lon": 44.42,
+  "look": {
+   "target": "Venus"
+  },
+  "summary": "Babylonian scribes recorded when Venus vanished and reappeared over 21 years. Because those cycles repeat, the tablet is a key and much argued tool for fixing dates in the second millennium BCE.",
+  "sources": [
+   "Enuma Anu Enlil tablet 63",
+   "Reiner & Pingree, Babylonian Planetary Omens 1 (1975)"
+  ],
+  "tags": [
+   "venus",
+   "babylon",
+   "tablet",
+   "mesopotamia",
+   "chronology",
+   "omen"
+  ]
+ },
+ {
+  "id": "bethlehem7bce",
+  "title": "The triple conjunction of 7 BCE",
+  "kind": "conjunction",
+  "certainty": "hypothesis",
+  "year": -6,
+  "month": 10,
+  "day": 2,
+  "hour": 22.0,
+  "place": "Jerusalem",
+  "lat": 31.77,
+  "lon": 35.21,
+  "look": {
+   "target": "Jupiter"
+  },
+  "summary": "Jupiter and Saturn met three times in Pisces in 7 BCE, coming within about a degree in late May, early October and early December. Kepler suggested this as the Star of Bethlehem, one of several competing ideas.",
+  "sources": [
+   "Kepler, De vero anno (1614)",
+   "Conjunction dates computed with Astronomy Engine"
+  ],
+  "tags": [
+   "star of bethlehem",
+   "conjunction",
+   "jupiter",
+   "saturn",
+   "pisces",
+   "kepler"
+  ]
+ },
+ {
+  "id": "greatconj2020",
+  "title": "The great conjunction of 2020",
+  "kind": "conjunction",
+  "certainty": "recorded",
+  "year": 2020,
+  "month": 12,
+  "day": 21,
+  "hour": 17.5,
+  "place": "Princeton, New Jersey",
+  "lat": 40.3431,
+  "lon": -74.6551,
+  "look": {
+   "target": "Jupiter"
+  },
+  "summary": "Jupiter and Saturn passed a tenth of a degree apart in the evening twilight, their closest visible pairing since 1226.",
+  "sources": [
+   "Conjunction computed with Astronomy Engine"
+  ],
+  "tags": [
+   "conjunction",
+   "jupiter",
+   "saturn",
+   "2020",
+   "princeton"
+  ]
+ },
+ {
+  "id": "leonids1833",
+  "title": "The night the stars fell",
+  "kind": "meteor",
+  "certainty": "recorded",
+  "year": 1833,
+  "month": 11,
+  "day": 13,
+  "hour": 4.0,
+  "place": "New Haven",
+  "lat": 41.31,
+  "lon": -72.92,
+  "look": {
+   "target": "Regulus"
+  },
+  "meteors": {
+   "radiantRa": 152.0,
+   "radiantDec": 22.0,
+   "perMinute": 120
+  },
+  "summary": "Across North America people woke to tens of thousands of meteors an hour streaming from Leo. Denison Olmsted at Yale showed they shared a single radiant, which launched the scientific study of meteor showers.",
+  "sources": [
+   "Olmsted, American Journal of Science 25-26 (1834)"
+  ],
+  "tags": [
+   "leonids",
+   "meteor storm",
+   "leo",
+   "olmsted",
+   "yale",
+   "1833"
+  ]
+ },
+ {
+  "id": "tunguska1908",
+  "title": "Tunguska",
+  "kind": "impact",
+  "certainty": "recorded",
+  "year": 1908,
+  "month": 6,
+  "day": 30,
+  "hour": 7.2,
+  "place": "Podkamennaya Tunguska, Siberia",
+  "lat": 60.89,
+  "lon": 101.89,
+  "look": {
+   "alt": 25,
+   "az": 115
+  },
+  "bolide": {
+   "fromAz": 115,
+   "fromAlt": 50,
+   "toAz": 120,
+   "toAlt": 2
+  },
+  "summary": "A stony body tens of metres across exploded several kilometres above the Siberian forest and flattened roughly 2,000 square kilometres of trees. No crater formed.",
+  "sources": [
+   "Chyba, Thomas & Zahnle, Nature 361 (1993)"
+  ],
+  "tags": [
+   "tunguska",
+   "airburst",
+   "siberia",
+   "impact",
+   "1908",
+   "bolide"
+  ],
+  "impact": 0.45
+ },
+ {
+  "id": "chelyabinsk2013",
+  "title": "Chelyabinsk airburst",
+  "kind": "impact",
+  "certainty": "recorded",
+  "year": 2013,
+  "month": 2,
+  "day": 15,
+  "hour": 9.1,
+  "place": "Chelyabinsk",
+  "lat": 55.15,
+  "lon": 61.4,
+  "look": {
+   "alt": 20,
+   "az": 100
+  },
+  "bolide": {
+   "fromAz": 100,
+   "fromAlt": 30,
+   "toAz": 200,
+   "toAlt": 10
+  },
+  "summary": "A 20 metre asteroid entered over the Urals and burst about 30 km up, briefly outshining the Sun. The shock wave blew out windows across the city and injured about 1,500 people.",
+  "sources": [
+   "Popova et al., Science 342 (2013)"
+  ],
+  "tags": [
+   "chelyabinsk",
+   "airburst",
+   "russia",
+   "meteor",
+   "2013",
+   "bolide"
+  ],
+  "impact": 0.3
+ },
+ {
+  "id": "dart2022",
+  "title": "DART: the night we moved an asteroid",
+  "kind": "impact",
+  "certainty": "recorded",
+  "year": 2022,
+  "month": 9,
+  "day": 27,
+  "hour": 0.6,
+  "place": "Sutherland, South Africa",
+  "lat": -32.38,
+  "lon": 20.81,
+  "look": {
+   "alt": 45,
+   "az": 0
+  },
+  "summary": "On 26 September 2022 at 23:14 UTC, NASA's DART spacecraft deliberately struck Dimorphos, the small moon of the asteroid Didymos, as the first test of planetary defence. The impact shortened the moonlet's orbit by 32 minutes. Telescopes in southern Africa, including those at Sutherland, were among the ones watching. The pair was about magnitude 14, far too faint for the eye, so it is not drawn: this is the sky those telescopes worked under.",
+  "sources": [
+   "NASA DART mission results (2022)",
+   "Thomas et al., Nature 616 (2023)"
+  ],
+  "tags": [
+   "dart",
+   "dimorphos",
+   "didymos",
+   "asteroid",
+   "planetary",
+   "defense",
+   "defence",
+   "2022",
+   "impact",
+   "liciacube"
+  ]
+ },
+ {
+  "id": "chicxulub",
+  "title": "The Chicxulub impact",
+  "kind": "impact",
+  "certainty": "reconstruction",
+  "year": -65997974,
+  "month": 6,
+  "day": 1,
+  "hour": 22.0,
+  "place": "Chicxulub, Yucatan",
+  "lat": 21.3,
+  "lon": -89.6,
+  "look": {
+   "alt": 16,
+   "az": 45
+  },
+  "bolide": {
+   "fromAz": 45,
+   "fromAlt": 60,
+   "toAz": 40,
+   "toAlt": 1
+  },
+  "summary": "An asteroid about 10 km wide struck what is now the Yucatan at roughly 20 km per second, ending the age of non-avian dinosaurs. Simulations favour a steep strike, 45 to 60 degrees, from the northeast. The blast, ejecta raining back through the sky and the dust that followed are dramatised here. The plate model puts this spot near 25° N at the time. The star patterns of 66 million years ago are unknown, so today's constellations are drawn only as a reference.",
+  "sources": [
+   "Collins et al., Nature Communications 11 (2020)",
+   "Schulte et al., Science 327 (2010)"
+  ],
+  "tags": [
+   "chicxulub",
+   "dinosaurs",
+   "k-pg",
+   "extinction",
+   "asteroid",
+   "impact",
+   "cretaceous",
+   "yucatan"
+  ],
+  "impact": 1.0
+ },
+ {
+  "id": "gobekli9500",
+  "title": "Gobekli Tepe",
+  "kind": "culture",
+  "certainty": "hypothesis, disputed",
+  "year": -9499,
+  "month": 6,
+  "day": 21,
+  "hour": 23.0,
+  "place": "Gobekli Tepe",
+  "lat": 37.2232,
+  "lon": 38.9224,
+  "look": {
+   "alt": 30,
+   "az": 180
+  },
+  "summary": "Hunter-gatherers raised these carved stone enclosures around 9500 BCE, millennia before farming towns. Claims that Pillar 43 records a comet impact or star patterns are rejected by the excavators, but the sky above the site is still worth seeing. Vega was drifting toward the pole.",
+  "sources": [
+   "Schmidt, Gobekli Tepe (2006)",
+   "Sweatman & Tsikritsis, Mediterranean Archaeology and Archaeometry 17 (2017)",
+   "Notroff et al. rebuttal, Tepe Telegrams (2017)"
+  ],
+  "tags": [
+   "gobekli tepe",
+   "turkey",
+   "neolithic",
+   "pillar 43",
+   "vega"
+  ]
+ },
+ {
+  "id": "lascaux17000",
+  "title": "Lascaux and the Pleiades question",
+  "kind": "culture",
+  "certainty": "hypothesis",
+  "year": -15000,
+  "month": 1,
+  "day": 15,
+  "hour": 5.0,
+  "place": "Lascaux",
+  "lat": 45.0537,
+  "lon": 1.1676,
+  "look": {
+   "target": "Pleiades"
+  },
+  "summary": "Painters decorated the Lascaux cave around 17,000 years ago. Some researchers read a cluster of dots above an aurochs in the Hall of the Bulls as the Pleiades near Taurus. It remains an interpretation.",
+  "sources": [
+   "Rappengluck, in Astronomy and Cultural Diversity (1999)"
+  ],
+  "tags": [
+   "lascaux",
+   "cave painting",
+   "pleiades",
+   "taurus",
+   "paleolithic",
+   "france"
+  ]
+ },
+ {
+  "id": "apollo11",
+  "title": "Apollo 11 lands",
+  "kind": "observation",
+  "certainty": "recorded",
+  "year": 1969,
+  "month": 7,
+  "day": 20,
+  "hour": 14.0,
+  "place": "Houston",
+  "lat": 29.76,
+  "lon": -95.37,
+  "look": {
+   "target": "Moon"
+  },
+  "summary": "Eagle touched down in the Sea of Tranquillity at 20:17 UTC. From Houston a waxing Moon, nearly at first quarter, stood in the afternoon sky.",
+  "sources": [
+   "NASA Apollo 11 Mission Report (1969)"
+  ],
+  "tags": [
+   "apollo 11",
+   "moon landing",
+   "nasa",
+   "houston",
+   "1969"
+  ]
+ },
+ {
+  "id": "princeton_tonight",
+  "title": "Tonight over Princeton",
+  "kind": "culture",
+  "certainty": "computed",
+  "year": 0,
+  "month": 0,
+  "day": 0,
+  "hour": 21.0,
+  "place": "Princeton, New Jersey",
+  "lat": 40.3431,
+  "lon": -74.6551,
+  "look": {
+   "alt": 35,
+   "az": 180
+  },
+  "summary": "The sky above HackPrinceton right now. Start here, then rewind.",
+  "sources": [
+   "Astronomy Engine"
+  ],
+  "tags": [
+   "princeton",
+   "today",
+   "tonight",
+   "now"
+  ]
+ },
+ {
+  "id": "khonsu1179",
+  "title": "Full Moon over the Temple of Khonsu",
+  "kind": "culture",
+  "certainty": "computed",
+  "year": -1179,
+  "month": 4,
+  "day": 23,
+  "hour": 0.2,
+  "place": "Karnak, Thebes",
+  "lat": 25.7188,
+  "lon": 32.6573,
+  "look": {
+   "target": "Moon"
+  },
+  "summary": "Khonsu, the Egyptian moon god whose name means traveller, crossed the night sky as the Moon. Ramesses III began his temple at Karnak in the 12th century BCE. This is a full Moon of that reign, computed for Thebes. Marvel's Khonshu is drawn from him.",
+  "sources": [
+   "Wilkinson, The Complete Gods and Goddesses of Ancient Egypt (2003)",
+   "Full Moon computed with Astronomy Engine"
+  ],
+  "tags": [
+   "khonsu",
+   "khonshu",
+   "moon knight",
+   "moon god",
+   "karnak",
+   "thebes",
+   "luxor",
+   "egypt",
+   "full moon",
+   "ramesses iii"
+  ]
+ },
+ {
+  "id": "columbus1504",
+  "title": "Columbus and the lunar eclipse",
+  "kind": "eclipse",
+  "certainty": "recorded",
+  "year": 1504,
+  "month": 2,
+  "day": 29,
+  "hour": 19.5,
+  "place": "St Ann's Bay, Jamaica",
+  "lat": 18.43,
+  "lon": -77.2,
+  "look": {
+   "target": "Moon"
+  },
+  "summary": "Stranded on Jamaica, Columbus used Regiomontanus's almanac to predict a total lunar eclipse and warned the Taino that the Moon would darken. When it rose already in eclipse, supplies resumed. The eclipse is real and computable. How much the story was embellished is debated.",
+  "sources": [
+   "Ferdinand Columbus, Life of the Admiral (1571)",
+   "Regiomontanus, Ephemerides (1474)"
+  ],
+  "tags": [
+   "columbus",
+   "lunar eclipse",
+   "jamaica",
+   "taino",
+   "blood moon",
+   "1504",
+   "regiomontanus"
+  ]
+ },
+ {
+  "id": "eclipse1999",
+  "title": "The last total eclipse of the millennium",
+  "kind": "eclipse",
+  "certainty": "recorded",
+  "year": 1999,
+  "month": 8,
+  "day": 11,
+  "hour": 12.67,
+  "place": "Ramnicu Valcea, Romania",
+  "lat": 45.1,
+  "lon": 24.3,
+  "look": {
+   "target": "Sun"
+  },
+  "summary": "Totality swept from Cornwall across Europe to India, watched by hundreds of millions. Greatest eclipse fell over Romania.",
+  "sources": [
+   "NASA eclipse predictions (Espenak)"
+  ],
+  "tags": [
+   "eclipse",
+   "1999",
+   "europe",
+   "romania",
+   "millennium",
+   "solar eclipse"
+  ]
+ },
+ {
+  "id": "eclipse2009",
+  "title": "The longest eclipse of the century",
+  "kind": "eclipse",
+  "certainty": "recorded",
+  "year": 2009,
+  "month": 7,
+  "day": 22,
+  "hour": 6.46,
+  "place": "Varanasi",
+  "lat": 25.32,
+  "lon": 82.97,
+  "look": {
+   "target": "Sun"
+  },
+  "summary": "Totality lasted up to 6 minutes 39 seconds over the Pacific, the longest of the 21st century. In India it came just after sunrise over the Ganges.",
+  "sources": [
+   "NASA eclipse predictions (Espenak)"
+  ],
+  "tags": [
+   "eclipse",
+   "2009",
+   "india",
+   "varanasi",
+   "ganges",
+   "longest",
+   "solar eclipse"
+  ]
+ },
+ {
+  "id": "eclipse2017",
+  "title": "The Great American eclipse",
+  "kind": "eclipse",
+  "certainty": "recorded",
+  "year": 2017,
+  "month": 8,
+  "day": 21,
+  "hour": 12.7,
+  "place": "Hopkinsville, Kentucky",
+  "lat": 36.97,
+  "lon": -86.44,
+  "look": {
+   "target": "Sun"
+  },
+  "summary": "The first total eclipse to cross the United States coast to coast since 1918. The point of greatest eclipse fell near Hopkinsville.",
+  "sources": [
+   "NASA eclipse predictions (Espenak)"
+  ],
+  "tags": [
+   "eclipse",
+   "2017",
+   "kentucky",
+   "united states",
+   "solar eclipse",
+   "totality"
+  ]
+ },
+ {
+  "id": "sn1987a",
+  "title": "Supernova 1987A",
+  "kind": "supernova",
+  "certainty": "recorded",
+  "year": 1987,
+  "month": 2,
+  "day": 24,
+  "hour": 2.5,
+  "place": "Las Campanas, Chile",
+  "lat": -29.01,
+  "lon": -70.69,
+  "look": {
+   "target": "SN 1987A"
+  },
+  "transient": {
+   "name": "SN 1987A",
+   "ra": 83.866,
+   "dec": -69.27,
+   "peakMag": 2.9,
+   "daysVisible": 300,
+   "start": [
+    1987,
+    2,
+    23
+   ]
+  },
+  "summary": "Ian Shelton spotted a new star in the Large Magellanic Cloud on a photographic plate. It was the nearest supernova seen since Kepler's, and detectors in Japan and the US caught its burst of neutrinos hours before the light.",
+  "sources": [
+   "IAU Circular 4316 (1987)",
+   "Hirata et al., Phys. Rev. Lett. 58 (1987)"
+  ],
+  "tags": [
+   "supernova",
+   "1987a",
+   "magellanic cloud",
+   "chile",
+   "neutrinos",
+   "shelton"
+  ]
+ },
+ {
+  "id": "novaaql1918",
+  "title": "Nova Aquilae 1918",
+  "kind": "supernova",
+  "certainty": "recorded",
+  "year": 1918,
+  "month": 6,
+  "day": 9,
+  "hour": 22.5,
+  "place": "Princeton, New Jersey",
+  "lat": 40.3431,
+  "lon": -74.6551,
+  "look": {
+   "target": "Nova Aquilae"
+  },
+  "transient": {
+   "name": "Nova Aquilae",
+   "ra": 282.23,
+   "dec": 0.58,
+   "peakMag": -0.5,
+   "daysVisible": 40,
+   "start": [
+    1918,
+    6,
+    8
+   ]
+  },
+  "summary": "A nova in Aquila briefly rivalled Sirius, the brightest nova since Kepler's time. It was seen across the world in the last summer of the First World War.",
+  "sources": [
+   "AAVSO, V603 Aquilae"
+  ],
+  "tags": [
+   "nova",
+   "aquila",
+   "1918",
+   "v603 aql",
+   "new star"
+  ]
+ },
+ {
+  "id": "halley1910",
+  "title": "Earth passes through Halley's tail",
+  "kind": "comet",
+  "certainty": "recorded",
+  "year": 1910,
+  "month": 5,
+  "day": 21,
+  "hour": 20.2,
+  "place": "New York",
+  "lat": 40.7128,
+  "lon": -74.006,
+  "look": {
+   "target": "Halley's Comet"
+  },
+  "summary": "On 19 May 1910 Earth passed through the comet's tail as Halley crossed in front of the Sun. Newspapers warned of poison gas and some people bought comet pills. Nothing happened. This is two evenings later, with the comet back in the western sky after sunset.",
+  "sources": [
+   "New York Times coverage, May 1910"
+  ],
+  "tags": [
+   "halley",
+   "comet",
+   "1910",
+   "comet pills",
+   "tail"
+  ]
+ },
+ {
+  "id": "halebopp1997",
+  "title": "Comet Hale-Bopp",
+  "kind": "comet",
+  "certainty": "recorded",
+  "year": 1997,
+  "month": 4,
+  "day": 1,
+  "hour": 20.5,
+  "place": "Princeton, New Jersey",
+  "lat": 40.3431,
+  "lon": -74.6551,
+  "look": {
+   "target": "Comet Hale-Bopp"
+  },
+  "summary": "Hale-Bopp stayed visible to the naked eye for a record 18 months and shone brighter than nearly every star in spring 1997, its white dust tail and blue ion tail clearly split. Position computed from its orbit.",
+  "sources": [
+   "Hale & Bopp, IAU Circular 6187 (1995)"
+  ],
+  "tags": [
+   "hale-bopp",
+   "comet",
+   "1997",
+   "great comet"
+  ]
+ },
+ {
+  "id": "ulughbeg1437",
+  "title": "Ulugh Beg's star catalogue",
+  "kind": "observation",
+  "certainty": "recorded, date approximate",
+  "year": 1437,
+  "month": 10,
+  "day": 1,
+  "hour": 22.0,
+  "place": "Samarkand",
+  "lat": 39.6542,
+  "lon": 66.9597,
+  "look": {
+   "alt": 40,
+   "az": 180
+  },
+  "summary": "From a giant meridian arc at his Samarkand observatory, Ulugh Beg remeasured about a thousand stars, the first major independent catalogue since Ptolemy.",
+  "sources": [
+   "Ulugh Beg, Zij-i Sultani (c. 1437)"
+  ],
+  "tags": [
+   "ulugh beg",
+   "samarkand",
+   "observatory",
+   "catalogue",
+   "islamic astronomy",
+   "timurid"
+  ]
+ },
+ {
+  "id": "jantarmantar1734",
+  "title": "Jantar Mantar, Jaipur",
+  "kind": "observation",
+  "certainty": "recorded, date approximate",
+  "year": 1734,
+  "month": 11,
+  "day": 15,
+  "hour": 21.0,
+  "place": "Jaipur",
+  "lat": 26.9248,
+  "lon": 75.8246,
+  "look": {
+   "alt": 27,
+   "az": 0
+  },
+  "summary": "Maharaja Jai Singh II built masonry instruments in Jaipur, including the world's largest stone sundial. The site points at the celestial pole, which stands 27 degrees up here.",
+  "sources": [
+   "UNESCO World Heritage listing (2010)"
+  ],
+  "tags": [
+   "jantar mantar",
+   "jaipur",
+   "india",
+   "jai singh",
+   "sundial",
+   "observatory"
+  ]
+ },
+ {
+  "id": "hokulea1976",
+  "title": "Hokule'a sails by the stars",
+  "kind": "culture",
+  "certainty": "recorded",
+  "year": 1976,
+  "month": 5,
+  "day": 1,
+  "hour": 22.0,
+  "place": "Honolua Bay, Maui",
+  "lat": 20.94,
+  "lon": -156.69,
+  "look": {
+   "alt": 15,
+   "az": 180
+  },
+  "summary": "The voyaging canoe Hokule'a crossed from Hawaii to Tahiti with no instruments, navigated by Mau Piailug from rising and setting stars, swells and birds. It showed that Polynesian wayfinding could make the voyage deliberately.",
+  "sources": [
+   "Finney, Hokule'a: The Way to Tahiti (1979)"
+  ],
+  "tags": [
+   "hokulea",
+   "polynesia",
+   "wayfinding",
+   "navigation",
+   "hawaii",
+   "tahiti",
+   "mau piailug"
+  ]
+ },
+ {
+  "id": "emu",
+  "title": "The Emu in the Sky",
+  "kind": "culture",
+  "certainty": "recorded",
+  "year": 2026,
+  "month": 5,
+  "day": 20,
+  "hour": 21.0,
+  "place": "Uluru",
+  "lat": -25.3444,
+  "lon": 131.0369,
+  "look": {
+   "alt": 35,
+   "az": 150
+  },
+  "summary": "Many Aboriginal Australian peoples see an emu in the dark dust lanes of the Milky Way, its head at the Coalsack beside the Southern Cross. Its changing posture through the year marks when emus lay eggs.",
+  "sources": [
+   "Norris & Hamacher, in The Role of Astronomy in Society and Culture (2009)"
+  ],
+  "tags": [
+   "emu",
+   "aboriginal",
+   "australia",
+   "uluru",
+   "milky way",
+   "coalsack",
+   "southern cross",
+   "dark constellation"
+  ]
+ },
+ {
+  "id": "matariki",
+  "title": "Matariki rises before dawn",
+  "kind": "culture",
+  "certainty": "computed",
+  "year": 2026,
+  "month": 7,
+  "day": 11,
+  "hour": 6.2,
+  "place": "Wellington, Aotearoa",
+  "lat": -41.29,
+  "lon": 174.78,
+  "look": {
+   "target": "Pleiades"
+  },
+  "summary": "The pre-dawn return of the Pleiades, Matariki, marks the Maori new year, now a public holiday in New Zealand.",
+  "sources": [
+   "Matariki Public Holiday Act 2022 (New Zealand)"
+  ],
+  "tags": [
+   "matariki",
+   "pleiades",
+   "maori",
+   "new zealand",
+   "aotearoa",
+   "new year"
+  ]
+ },
+ {
+  "id": "neowise2020",
+  "title": "Comet NEOWISE",
+  "kind": "comet",
+  "certainty": "recorded",
+  "year": 2020,
+  "month": 7,
+  "day": 18,
+  "hour": 21.3,
+  "place": "Princeton, New Jersey",
+  "lat": 40.3431,
+  "lon": -74.6551,
+  "look": {
+   "target": "Comet NEOWISE"
+  },
+  "summary": "In July 2020, during the pandemic summer, NEOWISE hung below the Big Dipper after dusk, the brightest comet seen from the northern hemisphere since Hale-Bopp. Position computed from its orbit.",
+  "sources": [
+   "JPL Small-Body Database, C/2020 F3"
+  ],
+  "tags": [
+   "neowise",
+   "comet",
+   "2020",
+   "big dipper",
+   "princeton"
+  ]
+ },
+ {
+  "id": "west1976",
+  "title": "Comet West breaks apart",
+  "kind": "comet",
+  "certainty": "recorded",
+  "year": 1976,
+  "month": 3,
+  "day": 7,
+  "hour": 5.0,
+  "place": "Princeton, New Jersey",
+  "lat": 40.3431,
+  "lon": -74.6551,
+  "look": {
+   "target": "Comet West"
+  },
+  "summary": "Comet West rounded the Sun in February 1976 and split into four pieces. Its broad, fanned dust tail rose before dawn in early March, one of the finest comets of the twentieth century.",
+  "sources": [
+   "JPL Small-Body Database, C/1975 V1"
+  ],
+  "tags": [
+   "comet west",
+   "comet",
+   "1976",
+   "dawn"
+  ]
+ },
+ {
+  "id": "jurassic150",
+  "title": "A Late Jurassic night",
+  "kind": "culture",
+  "certainty": "reconstruction",
+  "year": -149997974,
+  "month": 7,
+  "day": 1,
+  "hour": 20.1,
+  "place": "Como Bluff, Wyoming",
+  "lat": 41.89,
+  "lon": -106.07,
+  "look": {
+   "alt": 5,
+   "az": 290
+  },
+  "summary": "Sauropods like Apatosaurus, Diplodocus and Brachiosaurus walked the river plains of the Morrison Formation. This patch of Wyoming then sat much farther south, near 35° N, as North America drifted away from a breaking Pangaea. The landscape is a reconstruction. The star patterns of that time are unknown, so today's constellations are drawn only as a reference.",
+  "sources": [
+   "Foster, Jurassic West (Indiana University Press, 2007)",
+   "Merdith et al., Earth-Science Reviews 214 (2021)"
+  ],
+  "tags": [
+   "jurassic",
+   "dinosaurs",
+   "sauropod",
+   "morrison formation",
+   "wyoming",
+   "pangaea",
+   "brachiosaurus",
+   "diplodocus"
+  ]
+ },
+ {
+  "id": "hellcreek66",
+  "title": "The last night of the Cretaceous",
+  "kind": "culture",
+  "certainty": "reconstruction",
+  "year": -65997974,
+  "month": 6,
+  "day": 1,
+  "hour": 21.0,
+  "place": "Hell Creek, Montana",
+  "lat": 47.5,
+  "lon": -106.9,
+  "look": {
+   "alt": 6,
+   "az": 85
+  },
+  "summary": "Tyrannosaurus and Triceratops lived along the coastal plains of the Hell Creek Formation, beside a shallow inland sea. Within hours of the Chicxulub impact, 3,000 km away, ejecta fell back as glowing debris across the continent.",
+  "sources": [
+   "Hartman et al., GSA Special Paper 527 (2014)",
+   "DePalma et al., PNAS 116 (2019)"
+  ],
+  "tags": [
+   "cretaceous",
+   "t rex",
+   "tyrannosaurus",
+   "triceratops",
+   "hell creek",
+   "montana",
+   "dinosaurs"
+  ]
+ },
+ {
+  "id": "lgm21000",
+  "title": "The ice sheet's edge in New Jersey",
+  "kind": "culture",
+  "certainty": "reconstruction",
+  "year": -18974,
+  "month": 1,
+  "day": 15,
+  "hour": 22.0,
+  "place": "Princeton, New Jersey",
+  "lat": 40.3431,
+  "lon": -74.6551,
+  "look": {
+   "alt": 5,
+   "az": 0
+  },
+  "summary": "At the height of the last ice age the Laurentide Ice Sheet reached central New Jersey. Its southern edge left the terminal moraine, a ridge of debris running from Perth Amboy to Belvidere. Princeton sat just south of the ice on cold, windswept tundra, and sea level was about 120 m lower than today.",
+  "sources": [
+   "New Jersey Geological and Water Survey, Glacial Geology of New Jersey",
+   "Clark et al., Science 325 (2009)"
+  ],
+  "tags": [
+   "ice age",
+   "last glacial maximum",
+   "glacier",
+   "new jersey",
+   "princeton",
+   "laurentide",
+   "moraine",
+   "mammoth"
+  ]
+ },
+ {
+  "id": "pangaea250",
+  "title": "Pangaea",
+  "kind": "culture",
+  "certainty": "reconstruction",
+  "year": -249997974,
+  "month": 6,
+  "day": 21,
+  "hour": 22.0,
+  "place": "Princeton, New Jersey",
+  "lat": 40.3431,
+  "lon": -74.6551,
+  "look": {
+   "alt": 20,
+   "az": 180
+  },
+  "summary": "About 250 million years ago, just after the Great Dying at the end of the Permian, the continents were joined in one supercontinent, Pangaea. The plate model puts the ground under today's Princeton near 7° N, deep in its interior, with Africa next door. There were no dinosaurs yet. Open the place map to see where every continent was.",
+  "sources": [
+   "Merdith et al., Earth-Science Reviews 214 (2021)"
+  ],
+  "tags": [
+   "pangaea",
+   "supercontinent",
+   "triassic",
+   "permian",
+   "continental drift",
+   "great dying"
+  ]
+ },
+ {
+  "id": "greensahara",
+  "title": "The Green Sahara",
+  "kind": "culture",
+  "certainty": "reconstruction",
+  "year": -6999,
+  "month": 8,
+  "day": 15,
+  "hour": 22.0,
+  "place": "Sahara",
+  "lat": 23.416,
+  "lon": 25.663,
+  "look": {
+   "alt": 30,
+   "az": 180
+  },
+  "summary": "Between about 11,000 and 5,500 years ago stronger monsoons turned the Sahara into grassland dotted with lakes, home to hippos, giraffes and herders whose rock art survives. Then the rains failed and the desert returned.",
+  "sources": [
+   "deMenocal et al., Quaternary Science Reviews 19 (2000)"
+  ],
+  "tags": [
+   "green sahara",
+   "african humid period",
+   "sahara",
+   "lakes",
+   "rock art"
+  ]
+ },
+ {
+  "id": "teotihuacan",
+  "title": "The Pyramid of the Sun",
+  "kind": "alignment",
+  "certainty": "computed",
+  "year": 400,
+  "month": 8,
+  "day": 12,
+  "hour": 18.9,
+  "place": "Teotihuacan",
+  "lat": 19.6925,
+  "lon": -98.8438,
+  "look": {
+   "alt": 8,
+   "az": 95
+  },
+  "summary": "Teotihuacan's grid is turned about 15.5° from the cardinal directions, and the Pyramid of the Sun faces a western horizon point where the Sun sets on dates such as 13 August. That date is often linked to the start of the Maya Long Count.",
+  "sources": [
+   "Sprajc, Ancient Mesoamerica 11 (2000)",
+   "Aveni, Skywatchers (2001)"
+  ],
+  "tags": [
+   "teotihuacan",
+   "pyramid of the sun",
+   "mexico",
+   "alignment",
+   "aztec"
+  ]
+ },
+ {
+  "id": "colosseum80",
+  "title": "The Colosseum opens",
+  "kind": "culture",
+  "certainty": "computed",
+  "year": 80,
+  "month": 6,
+  "day": 21,
+  "hour": 22.0,
+  "place": "Rome",
+  "lat": 41.8902,
+  "lon": 12.4922,
+  "look": {
+   "alt": 20,
+   "az": 90
+  },
+  "summary": "Emperor Titus opened the Flavian Amphitheatre with 100 days of games in 80 CE. Rome then had no street lighting, so on a moonless night the Milky Way stood over the arena.",
+  "sources": [
+   "Suetonius, Titus 7",
+   "Cassius Dio, Roman History 66.25"
+  ],
+  "tags": [
+   "colosseum",
+   "rome",
+   "titus",
+   "roman empire",
+   "amphitheatre"
+  ]
+ },
+ {
+  "id": "angkor1150",
+  "title": "Angkor Wat at the equinox",
+  "kind": "alignment",
+  "certainty": "computed",
+  "year": 1150,
+  "month": 3,
+  "day": 15,
+  "hour": 5.9,
+  "place": "Angkor Wat",
+  "lat": 13.4125,
+  "lon": 103.867,
+  "look": {
+   "alt": 2,
+   "az": 90
+  },
+  "summary": "On the spring equinox the Sun rises directly over the central tower when seen from the western entrance. The temple was built for Suryavarman II and finished around 1150.",
+  "sources": [
+   "Stencel, Gifford & Moron, Science 193 (1976)"
+  ],
+  "tags": [
+   "angkor wat",
+   "cambodia",
+   "khmer",
+   "equinox",
+   "sunrise",
+   "suryavarman"
+  ]
+ },
+ {
+  "id": "uluru",
+  "title": "Uluru under the southern sky",
+  "kind": "culture",
+  "certainty": "computed",
+  "year": 2026,
+  "month": 6,
+  "day": 15,
+  "hour": 21.0,
+  "place": "Uluru",
+  "lat": -25.3444,
+  "lon": 131.0369,
+  "look": {
+   "alt": 25,
+   "az": 110
+  },
+  "summary": "Anangu law and story are tied to Uluru and the sky above it. Far from city lights, the Milky Way's core passes overhead on winter nights.",
+  "sources": [
+   "Parks Australia, Uluru-Kata Tjuta National Park"
+  ],
+  "tags": [
+   "uluru",
+   "australia",
+   "anangu",
+   "milky way",
+   "outback"
+  ]
+ },
+ {
+  "id": "machupicchu",
+  "title": "Machu Picchu",
+  "kind": "culture",
+  "certainty": "computed",
+  "year": 1460,
+  "month": 6,
+  "day": 21,
+  "hour": 21.0,
+  "place": "Machu Picchu",
+  "lat": -13.1631,
+  "lon": -72.545,
+  "look": {
+   "alt": 20,
+   "az": 0
+  },
+  "summary": "The Inca estate built for Pachacuti sits on a ridge with Huayna Picchu rising to the north. The Inca read dark constellations in the Milky Way, such as the llama Yacana.",
+  "sources": [
+   "Bauer & Dearborn, Astronomy and Empire in the Ancient Andes (1995)"
+  ],
+  "tags": [
+   "machu picchu",
+   "inca",
+   "peru",
+   "andes",
+   "huayna picchu",
+   "yacana"
+  ]
+ }
+]

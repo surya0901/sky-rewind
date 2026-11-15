@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Sky Rewind</title>
+    <meta name="description" content="Rewind the night sky to any place and moment in history." />
+  </head>
+  <body>
+    <div id="sky" aria-label="Sky view. Drag to look around, scroll to zoom."></div>
+
+    <header class="title">
+      <h1 id="place">Princeton, New Jersey</h1>
+      <p class="when"><span id="date">Tonight</span></p>
+      <p id="clock" class="clock"></p>
+      <p id="ground" class="ground"></p>
+      <details id="context" class="context" hidden><summary>Historical context</summary><p id="context-text"></p></details>
+      <p id="darksky-badge" class="darksky-badge" hidden>Dark-sky baseline · no artificial light</p>
+      <div class="title-actions">
+        <button id="return-now" class="pill accent" hidden>Return to now</button>
+        <button id="compare" class="pill accent">Compare tonight's sky</button>
+        <button id="plan" class="pill">Plan an observation</button>
+        <button id="explore" class="pill">Explore moments</button>
+        <button id="explain-open" class="pill listen icon" aria-label="Narrate this sky" title="Narrate this sky"><svg viewBox="0 0 18 14" aria-hidden="true"><path d="M1 7h0M4.5 4v6M8 1.5v11M11.5 4v6M15 5.5v3" /></svg></button>
+        <button id="demo" class="pill accent" hidden>Take the sky tour · 80 sec</button>
+      </div>
+    </header>
+
+    <p id="caption" class="caption" aria-live="polite" hidden></p>
+    <section id="finale" class="finale" hidden>
+      <p>The night sky did not disappear.<br />It became harder to see.</p>
+      <div id="finale-think" class="think glass-think"></div>
+      <button id="finale-close" class="pill accent">Explore on your own</button>
+    </section>
+
+    <p id="reply" class="toast" aria-live="polite"></p>
+
+    <article id="info" class="card info" hidden aria-live="polite">
+      <button id="info-close" class="x" aria-label="Close"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 4l8 8M12 4l-8 8" /></svg></button>
+      <p id="info-sub" class="eyebrow"></p>
+      <h2 id="info-title"></h2>
+      <p id="info-badge" class="badge"></p>
+      <ul id="info-rows"></ul>
+      <p id="info-why" class="info-why"></p>
+      <p id="info-src" class="fine left"></p>
+      <div class="card-actions">
+        <button id="info-zoom" class="pill" hidden>Zoom in</button>
+        <button id="info-explain" class="pill">Listen</button>
+        <button id="info-basis" class="pill">Scientific basis</button>
+      </div>
+    </article>
+
+    <article id="story" class="card story" hidden>
+      <button id="story-close" class="x" aria-label="Close"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 4l8 8M12 4l-8 8" /></svg></button>
+      <p id="story-meta" class="eyebrow"></p>
+      <h2 id="story-title"></h2>
+      <p id="story-body"></p>
+      <details>
+        <summary>Sources</summary>
+        <ul id="story-sources"></ul>
+      </details>
+      <div class="card-actions">
+        <button id="story-play" class="pill accent" hidden>Watch</button>
+        <button id="story-basis" class="pill">Scientific basis</button>
+        <button id="story-explain" class="pill">Listen</button>
+        <button id="story-evidence" class="pill" hidden>Evidence</button>
+        <button id="story-think-btn" class="pill">A question</button>
+      </div>
+      <div id="story-think" class="think" hidden></div>
+    </article>
+
+    <article id="evidence" class="card evidence" hidden aria-label="Evidence and visualization">
+      <button id="evidence-close" class="x" aria-label="Close"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 4l8 8M12 4l-8 8" /></svg></button>
+      <p class="eyebrow">Evidence &amp; visualization</p>
+      <figure id="evidence-fig" class="evidence-fig">
+        <img id="evidence-img" alt="" loading="lazy" referrerpolicy="no-referrer" />
+        <p id="evidence-fallback" class="evidence-fallback" hidden>Media unavailable. The scene remains based on computed astronomical reconstruction.</p>
+        <span id="evidence-status" class="badge"></span>
+      </figure>
+      <h2 id="evidence-title"></h2>
+      <p id="evidence-caption"></p>
+      <p id="evidence-when" class="fine left"></p>
+      <p class="fine left">Credit: <span id="evidence-credit"></span>. Source: <a id="evidence-link" target="_blank" rel="noopener"></a></p>
+      <ul id="evidence-more" class="cite"></ul>
+    </article>
+
+    <article id="explain" class="card explain" hidden aria-label="Explain this sky">
+      <button id="explain-close" class="x" aria-label="Close"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 4l8 8M12 4l-8 8" /></svg></button>
+      <p class="eyebrow">Scientific details</p>
+      <div id="explain-qs" class="filters" role="group" aria-label="Questions about this sky"></div>
+      <div id="explain-answer" class="answer" aria-live="polite"></div>
+    </article>
+
+    <section id="narrator" class="card narrator" hidden aria-label="Listen to this sky">
+      <div class="nar-top">
+        <button id="nar-play" class="nar-play" aria-label="Play"><svg viewBox="0 0 20 20" aria-hidden="true"><path class="ic-play" d="M6 3.5v13l11-6.5z" /><path class="ic-pause" d="M5 3.5h3.5v13H5zM11.5 3.5H15v13h-3.5z" /></svg></button>
+        <div class="nar-text">
+          <p id="nar-title" class="eyebrow"></p>
+          <p id="nar-line" class="nar-line"></p>
+        </div>
+        <div id="nar-wave" class="wave" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+        <button id="nar-close" class="x" aria-label="Close"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 4l8 8M12 4l-8 8" /></svg></button>
+      </div>
+      <div id="nar-modes" class="filters nar-modes" role="group" aria-label="What to hear"></div>
+      <div class="nar-row">
+        <button id="nar-replay" class="pill">Replay</button>
+        <button id="nar-next" class="pill">Next highlight</button>
+        <button id="nar-cc" class="pill" aria-pressed="true">Captions</button>
+        <label class="nar-vol">Volume <input id="nar-vol" type="range" min="0" max="1" step="0.05" value="0.9" /></label>
+        <label class="nar-vol">Voice <select id="nar-voice" aria-label="Narration voice"></select></label>
+        <button id="nar-details" class="pill">Sources</button>
+      </div>
+      <p id="nar-note" class="fine"></p>
+    </section>
+    <div id="highlights" class="highlights"></div>
+
+    <article id="brief" class="card brief" hidden aria-label="Observation brief"></article>
+
+    <article id="lights" class="card lights" hidden aria-label="Modelled city glow">
+      <button id="lights-close" class="x" aria-label="Close"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 4l8 8M12 4l-8 8" /></svg></button>
+      <p class="eyebrow">Estimated artificial skyglow · educational model</p>
+      <div id="lights-seg" class="seg" role="radiogroup" aria-label="Sky brightness">
+        <button role="radio" data-light="today" aria-checked="true">Tonight</button>
+        <button role="radio" data-light="natural" aria-checked="false">Dark-sky baseline</button>
+        <button role="radio" data-light="before" aria-checked="false">Before electric light</button>
+      </div>
+      <p id="lights-text" class="lights-text"></p>
+      <p id="lights-count" class="lights-count"></p>
+      <p class="fine">Educational visibility estimate: not a real-time observing forecast or a satellite measurement for this location. The glow is modelled from the population and distance of nearby cities with Walker's law (1977). For measured night lights see <a href="https://blackmarble.gsfc.nasa.gov/" target="_blank" rel="noopener">NASA Black Marble</a>. <a href="https://darksky.org/" target="_blank" rel="noopener">How to protect dark skies</a>.</p>
+    </article>
+
+    <dialog id="basis" class="basis" aria-label="Scientific basis">
+      <button id="basis-close" class="x" aria-label="Close"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 4l8 8M12 4l-8 8" /></svg></button>
+      <h2>Scientific basis</h2>
+      <div id="basis-body"></div>
+    </dialog>
+
+    <div id="reticle" class="reticle" hidden></div>
+
+    <!-- time -->
+    <section id="sheet-time" class="sheet" aria-label="Time" hidden>
+      <div class="scrub">
+        <output id="scrub-year" class="scrub-year">2026 CE</output>
+        <button id="now" class="pill">Now</button>
+        <div id="dial" class="dial" role="slider" tabindex="0" aria-label="Drag left for the past, right for the future" aria-valuetext="">
+          <div class="dial-ticks"></div>
+          <span class="dial-needle" aria-hidden="true"></span>
+        </div>
+        <div class="dial-labels" aria-hidden="true"><span id="dl-l"></span><span id="dl-c"></span><span id="dl-r"></span></div>
+        <div id="units" class="seg" role="radiogroup" aria-label="Step size">
+          <button role="radio" data-unit="hour" aria-checked="false">Hours</button>
+          <button role="radio" data-unit="day" aria-checked="false">Days</button>
+          <button role="radio" data-unit="year" aria-checked="false">Years</button>
+          <button role="radio" data-unit="century" aria-checked="true">Centuries</button>
+          <button role="radio" data-unit="millennium" aria-checked="false">Millennia</button>
+          <button role="radio" data-unit="myr" aria-checked="false">Million yrs</button>
+        </div>
+        <p class="hint">Drag the dial left to go into the past, right for the future</p>
+      </div>
+      <details class="more">
+        <summary>All of time</summary>
+        <div id="timeline" class="timeline"></div>
+        <div class="hourbar">
+          <button id="play" class="pill" aria-pressed="false">Play time</button>
+          <label for="hour" class="visually-hidden">Local solar time</label>
+          <input id="hour" type="range" min="0" max="24" step="0.05" value="21" />
+          <output id="hour-out2" for="hour">21:00</output>
+        </div>
+        <figure id="earth-then" class="earth-then" hidden>
+          <canvas id="earth-canvas" aria-label="Map of the world at this time, with your location marked"></canvas>
+          <figcaption id="earth-caption"></figcaption>
+        </figure>
+      </details>
+    </section>
+
+    <!-- place -->
+    <section id="sheet-place" class="sheet" aria-label="Explore a place" hidden>
+      <h2 class="sheet-title">Explore a place</h2>
+      <div class="place-grid">
+        <div class="place-left">
+          <canvas id="globe" class="globe" tabindex="0" role="application" aria-label="Globe. Drag to turn, click to choose a spot. Arrow keys turn it, Enter chooses the centre."></canvas>
+        </div>
+        <div class="place-right">
+          <div class="ask">
+            <svg class="ask-icon" viewBox="0 0 16 16" aria-hidden="true"><circle cx="7" cy="7" r="4.5" /><path d="M10.5 10.5 14 14" /></svg>
+            <label for="place-input" class="visually-hidden">Search a city or country</label>
+            <input id="place-input" type="text" placeholder="Search a city or country" autocomplete="off" />
+          </div>
+          <ul id="place-results" class="suggest" role="listbox" aria-label="Matching places"></ul>
+          <div id="place-quick" class="dest" aria-label="Quick choices"></div>
+          <div class="place-sel" aria-live="polite">
+            <strong id="place-name">Princeton</strong>
+            <span id="place-coords"></span>
+            <span id="place-extra"></span>
+            <span id="place-insight" class="place-insight"></span>
+          </div>
+          <button id="place-go" class="pill wide accent">See this sky</button>
+          <button id="place-reset" class="pill wide">Reset to Princeton, tonight</button>
+          <p class="hint">Your date and time stay the same. You can also type coordinates, like 13.08, 80.27.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- search -->
+    <section id="sheet-search" class="sheet" aria-label="Search" hidden>
+      <form id="ask" class="ask" autocomplete="off" role="search">
+        <svg class="ask-icon" viewBox="0 0 16 16" aria-hidden="true"><circle cx="7" cy="7" r="4.5" /><path d="M10.5 10.5 14 14" /></svg>
+        <label for="ask-input" class="visually-hidden">Where and when</label>
+        <input id="ask-input" type="text" placeholder="Take me to Giza in 1250 BCE" role="combobox" aria-expanded="false" aria-controls="suggest" aria-autocomplete="list" />
+        <button type="button" id="mic" class="mic" aria-label="Speak a request" title="Speak a request">
+          <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M12 15a3 3 0 0 0 3-3V6a3 3 0 1 0-6 0v6a3 3 0 0 0 3 3Zm5-3a5 5 0 0 1-10 0H5a7 7 0 0 0 6 6.92V21h2v-2.08A7 7 0 0 0 19 12h-2Z"/></svg>
+        </button>
+      </form>
+      <ul id="suggest" class="suggest" role="listbox" hidden></ul>
+      <div class="dest" aria-label="Jump to an era" id="dest"></div>
+      <details class="more">
+        <summary>Choose on the map</summary>
+        <div id="panel-picker"></div>
+      </details>
+    </section>
+
+    <!-- layers -->
+    <section id="sheet-layers" class="sheet" aria-label="Layers" hidden>
+      <div class="layers" aria-label="Layers">
+        <button data-layer="art" aria-pressed="false">Constellation art</button>
+        <button data-layer="constellations" aria-pressed="true">Constellation lines</button>
+        <button data-layer="labels" aria-pressed="true">Names</button>
+        <button data-layer="planets" aria-pressed="true">Sun, Moon, planets</button>
+        <button data-layer="milkyWay" aria-pressed="true">Milky Way</button>
+        <button data-layer="deep" aria-pressed="true">Galaxies and nebulae</button>
+        <button data-layer="grid" aria-pressed="false">Grid lines</button>
+        <button id="life" aria-pressed="false" title="Distant animals of the era, where there are any">Wildlife</button>
+        <button data-layer="ecliptic" aria-pressed="false" title="The path of the Sun, Moon and planets">Ecliptic</button>
+        <button data-layer="trails" aria-pressed="true">Star trails</button>
+        <button data-layer="poleTrack" aria-pressed="false">Pole drift</button>
+        <button id="daylight" aria-pressed="true" title="A soft blue sky by day with the bright stars still showing. Off keeps the sky dark at every hour">Daytime sky</button>
+        <button id="refsky" aria-pressed="true" title="Millions of years ago the real star patterns are unknown. On draws today's constellations as a reference, off scatters the stars">Deep-time constellations</button>
+        <button id="red" aria-pressed="false" title="Red display to protect night vision">Night vision</button>
+        <button id="lights-btn" aria-pressed="false" title="Modelled city glow: compare this sky with natural darkness">City glow</button>
+        <button id="sound" aria-pressed="true" title="Sound effects">Sound</button>
+        <button id="fullscreen" aria-pressed="false" title="Full screen (F)">Full screen</button>
+      </div>
+      <div class="ground-row">
+        <span id="skymode-label">Sky</span>
+        <div id="skymode-seg" class="seg" role="radiogroup" aria-labelledby="skymode-label">
+          <button role="radio" data-sky="observed" aria-checked="true" title="This place as it is: with the modelled glow of nearby cities">Observed sky</button>
+          <button role="radio" data-sky="dark" aria-checked="false" title="The same moment with no artificial light: what city glow removes">Dark-sky baseline</button>
+        </div>
+      </div>
+      <div class="ground-row">
+        <span id="ground-label">Ground</span>
+        <div id="ground-seg" class="seg" role="radiogroup" aria-labelledby="ground-label">
+          <button role="radio" data-ground="auto" aria-checked="true" title="Landscape at eye level; tilt down to look through the Earth">Auto</button>
+          <button role="radio" data-ground="solid" aria-checked="false" title="The landscape hides what is below the horizon">Solid</button>
+          <button role="radio" data-ground="glass" aria-checked="false" title="Look down through the Earth at the sky on the far side">See-through</button>
+          <button role="radio" data-ground="space" aria-checked="false" title="No ground: the whole sphere of sky">Space</button>
+        </div>
+      </div>
+      <button id="phone" class="pill wide" hidden>Point your phone at the sky</button>
+      <section class="precision" aria-live="polite">
+        <h2 id="era-name">Recorded history</h2>
+        <p id="era-note"></p>
+        <button id="layers-basis" class="pill">Scientific basis</button>
+      </section>
+      <p class="hint">Drag to look around. Scroll or pinch to zoom. Click a star, planet or constellation name to inspect it.<br />Space plays time, R resets the view, / searches, Esc closes.</p>
+    </section>
+
+    <!-- moments -->
+    <section id="sheet-moments" class="sheet" aria-label="Moments in the sky" hidden>
+      <button id="tour" class="pill wide accent">Take the sky tour · 80 sec</button>
+      <div id="moment-filters" class="filters" role="group" aria-label="Filter moments"></div>
+      <div id="moments-list" class="moments-list"></div>
+    </section>
+
+    <nav class="dock" aria-label="Controls">
+      <button id="btn-layers" data-sheet="layers" aria-label="Layers" title="Layers" aria-expanded="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="5" width="16" height="6" rx="3" /><circle cx="8" cy="8" r="1.6" class="f" /><rect x="4" y="13" width="16" height="6" rx="3" /><circle cx="16" cy="16" r="1.6" class="f" /></svg>
+      </button>
+      <button id="btn-time" data-sheet="time" aria-label="Time" title="Time" aria-expanded="false"><output id="hour-out">21:00</output></button>
+      <div hidden>
+      <button id="btn-compass" aria-label="Compass. Tap to face north" title="Face north">
+        <svg viewBox="0 0 24 24" aria-hidden="true" class="compass"><g class="ring"><path d="M12 2v2.4M12 19.6V22M2 12h2.4M19.6 12H22M4.9 4.9l1.7 1.7M17.4 17.4l1.7 1.7M19.1 4.9l-1.7 1.7M6.6 17.4l-1.7 1.7" /></g><path id="needle" class="f" d="M12 6.2 15.4 16 12 14.3 8.6 16Z" /></svg>
+        <span id="heading" class="visually-hidden">Facing N</span>
+      </button>
+      </div>
+      <button id="btn-moments" data-sheet="moments" aria-label="Moments" title="Moments" aria-expanded="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8.6" r="4.6" /><circle cx="8.2" cy="14.8" r="4.6" /><circle cx="15.8" cy="14.8" r="4.6" /></svg>
+      </button>
+      <button id="btn-place" data-sheet="place" aria-label="Explore a place" title="Place" aria-expanded="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" /><path d="M3.5 12h17M12 3.5c3 3 3 14 0 17M12 3.5c-3 3-3 14 0 17" /></svg>
+      </button>
+      <button id="btn-search" data-sheet="search" aria-label="Search" title="Search" aria-expanded="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6" /><path d="M15 15l5.5 5.5" /></svg>
+      </button>
+    </nav>
+
+    <div id="recover" class="recover glass" role="alert" hidden>
+      <p id="recover-text"></p>
+      <div class="card-actions"><button id="recover-retry" class="pill">Try again</button><button id="recover-reset" class="pill accent">Reset to Princeton</button></div>
+    </div>
+    <div id="loading" class="loading">Loading the sky</div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
